@@ -1,0 +1,44 @@
+:root{
+    --bg:#000000;
+    --fg:#ffffff;
+    --nav-text:#222222;
+    --tooltip-radius:18px;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family:system-ui, -apple-system, -BlinMacSystemFont,"Segoi UI",sans-serif;
+    background:#fafafa;
+}
+
+.nav{
+    display:flex;
+    gap:4rem;
+    font-size:2.5rem;
+    color:var(--nav-text);
+}
+
+
+.nav-item{
+    position:relative;
+    list-style: none;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color:inherit;
+    padding:0.25rem 0.5rem;
+}
+
+
